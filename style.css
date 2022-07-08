@@ -88,6 +88,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 50px;
 }
 
 .card {
@@ -96,9 +97,15 @@ ul {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 8px;
     padding: 10px;
+    text-align: center;
     flex: 0 1 200px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
 
 .cardImg {
@@ -107,6 +114,72 @@ ul {
     border-radius: 10px;   
 }
 
+.middle2 {
+    display: flex;
+    flex-direction: column;
+    background: #e5e7eb;
+    gap: 7px;
+    padding: 100px;
+}
+
+.middle2Text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    flex-wrap: wrap;
+}
+
+.middle2Text2 {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.bottom {
+    padding: 100px;
+}
+
+.botBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding: 100px;
+    margin: 20px;
+    background: #3882f6;
+}   
+
+.botText {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    color: white;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    font-size: bold;
+    color: white;
+    background: #3882f6;
+    border-color: none;
+    border-radius: 15px;
+}
+
+.bottomButton {
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    font-size: 14px;
+    color: white;
+    padding: 20px;
+}
 
 
 
